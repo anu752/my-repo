@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Education Form</title>
+</head>
+<body>
+
+    <h2>Online Education Registration Form</h2>
+
+    <form>
+        <label>Full Name:</label><br>
+        <input type="text" name="fullname" placeholder="Enter your name" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label>Phone Number:</label><br>
+        <input type="tel" name="phone" placeholder="Enter your phone number"><br><br>
+
+        <label>Course:</label><br>
+        <select name="course">
+            <option value="html">HTML Basics</option>
+            <option value="css">CSS Fundamentals</option>
+            <option value="js">JavaScript Beginner</option>
+            <option value="python">Python Programming</option>
+        </select><br><br>
+
+        <label>Mode of Study:</label><br>
+        <input type="radio" name="mode" value="online"> Online
+        <input type="radio" name="mode" value="offline"> Offline<br><br>
+
+        <label>Comments:</label><br>
+        <textarea name="comments" rows="4" cols="30" placeholder="Any additional details"></textarea><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
+
